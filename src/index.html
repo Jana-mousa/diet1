@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Food-Item</title>
+    <style>
+        .row{
+            padding: 10px;
+            border: 1px solid #f1f1f1
+        }
+        .modal-container{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.337);
+        }
+        
+        .modal{
+            position: absolute;
+            z-index: 9999;
+            width: 300px;
+            height: 500px;
+            background-color: white;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }        
+    </style>
+</head>
+<body>
+    <button id="addBtn">Add new food item</button>
+<!--list of item-->
+<div id = "wrapper" class="list">
+    <!--
+        <div class="row">
+        <h1>banana</h1>
+        <p> Fat:10</p>
+        <p>protien:5</p>
+        <p>carbs:6</p>
+
+        <button>delete</button>
+        <button>edit</button>
+        </div>
+
+
+    -->
+</div>
+
+
+<script src="./list.js"></script>
+<script src="./add.js"></script>
+
+</body>
+</html>
